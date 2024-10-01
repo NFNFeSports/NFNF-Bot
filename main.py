@@ -4,7 +4,7 @@ import asyncio
 import pandas as pd
 
 # Insira o token do bot aqui
-TOKEN = 'MTI5MDYxNzY5ODEyNDAzODE2Ng.GXkf2M.Z8cfuuC38a9gZy9zz7ofUF6ZkeQtdx1L2c0Z2o'  # Substitua SEU_DISCORD_BOT_TOKEN pelo seu token
+TOKEN = os.getenv('DISCORD_TOKEN')  # Use the secret you just added
 # Defina o canal onde o bot vai postar as informações
 CHANNEL_ID = 1290630295892004875  # Substitua pelo ID do seu canal
 
